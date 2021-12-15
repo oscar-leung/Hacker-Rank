@@ -12,13 +12,13 @@ public class ProductSort {
         Collections.sort(items);
         
         int current = 0;
-        int frequency = 0;
+        // int frequency = 0;
         for(int i = 0; i < items.size() - 1; i++){
             current = i;
             if(items.get(current).equals(items.get(current + 1))){
-                items.remove(i);
+                // items.remove(i);
                 items.add(i);
-                frequency++;
+                // frequency++;
             }
         }
         return items;

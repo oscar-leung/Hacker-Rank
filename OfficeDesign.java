@@ -3,11 +3,11 @@ import java.util.List;
 public class OfficeDesign {
 
     public OfficeDesign(){
-      // TODO document why this constructor is empty
+
     }
 
     public int getMaxColors(List<Integer> prices, int budget){
-        
+        System.out.println("prices: " + prices + "budet: " + budget);
         return -1;
     }
 
