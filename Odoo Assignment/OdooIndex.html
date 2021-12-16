@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Odoo Frontend Assignment -->
+<html lang="en">
+  <head>
+    <title>Odoo Frontend</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .flex-item-left {
+        background-color: #f1f1f1;
+        padding: 10px;
+        flex: 33%;
+      }
+
+      .flex-item-middle {
+        background-color: dodgerblue;
+        padding: 10px;
+        flex: 33%;
+      }
+      .flex-item-right {
+        background-color: aqua;
+        padding: 10px;
+        flex: 33%;
+      }
+
+      /* Responsive layout - makes three column layout */
+      @media (max-width: 800px) {
+        .flex-item-right,
+        .flex-item-middle,
+        .flex-item-left {
+          flex: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Odoo Frontend</h1>
+    <h2>Problem 6</h2>
+    <h2>
+      Create a 3*3 box using flex property, for each box it should display zero
+      as the count in the center
+    </h2>
+    <h2>Problem 7</h2>
+    <h2>
+      Extend the above feature by implementing the counter feature, the count
+      has to be incremented only for the clicked box .
+    </h2>
+    <h2>Problem 8</h2>
+    <h2>
+      Extend the above feature by creating a "click here" button and upon
+      clicking the button the count of all the boxes has to increment by 1 with
+      1 second gap for each increment.
+    </h2>
+    <div id="number" value="0" class="flex-container">
+      <div class="flex-item-left">{value}</div>
+      <div class="flex-item-middle">0</div>
+      <div class="flex-item-right">0</div>
+      <div class="flex-item-left">0</div>
+      <div class="flex-item-middle">0</div>
+      <div class="flex-item-right">0</div>
+      <div class="flex-item-left">0</div>
+      <div class="flex-item-middle">0</div>
+      <div class="flex-item-right">0</div>
+    </div>
+    <button id="number" value="0" onclick="incrementValue()">Click me</button>
+    <script>
+      function incrementValue() {
+        var value = parseInt(document.getElementById("number").value, 10);
+        value = isNaN(value) ? 0 : value;
+        value++;
+        document.getElementById("number").value = value;
+      }
+    </script>
+  </body>
+</html>

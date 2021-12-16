@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch MinimumSwaps",
+      "request": "launch",
+      "mainClass": "MinimumSwaps",
+      "projectName": "HackerRank_8d3bf36e"
+    },
+    {
+      "type": "java",
       "name": "Launch OfficeDesign",
       "request": "launch",
       "mainClass": "OfficeDesign",
