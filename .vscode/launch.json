@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch RansomNote",
+      "request": "launch",
+      "mainClass": "RansomNote",
+      "projectName": "HackerRank_8d3bf36e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "HackerRank_8d3bf36e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Playground",
+      "request": "launch",
+      "mainClass": "Playground",
+      "projectName": "HackerRank_8d3bf36e"
+    },
+    {
+      "type": "java",
       "name": "Launch MinimumSwaps",
       "request": "launch",
       "mainClass": "MinimumSwaps",
