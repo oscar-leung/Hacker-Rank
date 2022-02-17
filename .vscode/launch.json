@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch whiteboard",
+      "request": "launch",
+      "mainClass": "whiteboard",
+      "projectName": "HackerRank_8d3bf36e"
+    },
+    {
+      "type": "java",
       "name": "Launch RansomNote",
       "request": "launch",
       "mainClass": "RansomNote",
