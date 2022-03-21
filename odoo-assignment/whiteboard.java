@@ -26,7 +26,15 @@ public class whiteboard {
         // right company name 
 
         
+        product boxes ={
 
+            'loT Box:
+           BOX-O8x02x02-20 BOX-2020x12: 16.0,
+        BOX-16x16x16: 9.0 BOX-08.08.08': 4.0
+           Scale Upl The Business Game:(
+           BOX-16x16x16: 7.0 BOX-10x8x8 : 3.0, "BOX-23x17x12: 140,
+           Basis Cash Drawer: 0 Shoes': "BOX-OX02x02: 6.0
+        }
 
 //         - Write a program/script/solution to find and return the best and least
 // possible packing boxes to be used for shipping the ordered products
@@ -36,13 +44,13 @@ public class whiteboard {
 
 // Expected return :
 
-orders = {
-    'S0101': {
-        'Scale-Up! The Business Game': 15.0,
-        'IoT Box': 47.0,
-        'Basic Cash Drawer': 10.0,
-        'Shoes': 5.0,
-    },
+// orders = {
+//     'S0101': {
+//         'Scale-Up! The Business Game': 15.0,
+//         'IoT Box': 47.0,
+//         'Basic Cash Drawer': 10.0,
+//         'Shoes': 5.0,
+//     },
 
 // packed_orders = {
 //     'S0101': {

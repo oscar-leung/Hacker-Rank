@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch itlize",
+      "request": "launch",
+      "mainClass": "itlize",
+      "projectName": "HackerRank_8d3bf36e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Calculator",
+      "request": "launch",
+      "mainClass": "TekSystem.Calculator",
+      "projectName": "HackerRank_8d3bf36e"
+    },
+    {
+      "type": "java",
+      "name": "Launch addTwoLargeNumbers",
+      "request": "launch",
+      "mainClass": "TekSystem.addTwoLargeNumbers",
+      "projectName": "HackerRank_8d3bf36e"
+    },
+    {
+      "type": "java",
       "name": "Launch whiteboard",
       "request": "launch",
       "mainClass": "whiteboard",
